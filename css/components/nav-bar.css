@@ -1,29 +1,30 @@
 .nav-bar {
-    display:flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    color: var(--pcolor);
-    background-color: var(--dcolor);
-    padding: 0 30px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  color: var(--dcolor);
+  background-color: var(--pcolor);
+  padding: 0 30px;
 }
 
 .nav-bar__div {
-    width: 33%;
-    display: flex;
+  width: 33%;
+  display: flex;
 }
 
 .nav-bar__center {
-    justify-content: center;
-    font-weight: 500;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .nav-bar__right {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .nav-bar__right .nav-icon:not(.fa-search) {
-    margin-left: 6px;
+  margin-left: 15px;
 }
